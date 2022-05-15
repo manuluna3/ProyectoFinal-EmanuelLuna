@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolce Paradiso</title>
+    <link rel="shortcut icon" href="./css/icons/cake.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&family=Lobster&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- Librería Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item pt-5">
+                            <a class="nav_l nav-link fs-5 text-dark m-1 fw-bold" href="index.html">Incio</a>
+                        </li>
+                        <li class="nav-item pt-5">
+                            <a class="nav_l nav-link fs-5 text-dark m-1 fw-bold" href="#productos">Productos</a>
+                        </li>
+                        <a class="navbar-brand mx-3 disabled">
+                            <img src="./css/icons/logo.png" alt="Logo" width="150px">
+                        </a>
+                        <li class="nav-item pt-5">
+                            <a class="nav_r nav-link fs-5 text-dark m-1 fw-bold" href="#galeria">Galería</a>
+                        </li>
+                        <li class="nav-item pt-5">
+                            <a class="nav_r nav-link fs-5 text-dark m-1 fw-bold" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+              </nav>
+        </header>
+        <main>
+
+            <!-- Banner y texto de relleno -->
+            <button id="toTop"><i class="fa-solid fa-arrow-up"></i></button>
+            <div class="mt-3 position-relative container banner">
+                <div class="banner_message position-absolute top-0 start-0 p-2 m-3 col-6">
+                    <h1>¡Bienvenidos a la pastelería!</h1>
+                    <p class="fw-bold ps-2">Hola, mi madre y yo les queríamos agradecer al equipo de coder, al profesor Santiago Avila y especialmente a mi tutor Pablo Cosin por toda la ayuda que me brindó para solucionar problemas de código y los consejos sobre funcionalidad, se que pregunté mucho así que extra agradecido por la paciencia 😄<br>
+                    Solo eso, muchas gracias por todo, fue un excelente curso, me quemé bastante la cabeza con algunas cosas y me alegré mucho cuando entendí otras, no se lo que me deparará el futuro pero pienso seguir por este camino y aprender un poco más todos los días. ¡Hasta la proxima!</p>
+                    <button class="ms-1 px-2 py-1 btn_leerMas">Leer Más ...</button>
+                </div>
+            </div>
+        <div class="mt-5 container">
+            <h1>Quienes Somos</h1>
+            <p><mark>Aquí iría un texto largo sobre el origen de la empresa , nuestros objetivos y demás, pero como no se me ocurre nada ahora mismo, a partir de aquí solo van lorems</mark> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti quia, aliquid blanditiis iusto, facere et repudiandae minus quae dolor fuga, cupiditate debitis optio! Impedit quasi, dolorem provident consequuntur tempora natus!
+            Ab necessitatibus enim odit quo laborum. Rem soluta quo minima mollitia repellat quam eligendi, voluptatum sed corrupti fugiat animi necessitatibus provident quia maiores nemo qui iure nam. Minima, velit eius?
+            Itaque eius quia, enim cumque maiores qui aliquid magnam sed possimus hic corporis ut vero ducimus perspiciatis reiciendis fuga? Id libero molestiae modi facilis cumque error ea doloribus distinctio vitae?
+            Vitae eum aliquid in nostrum ea at molestiae labore voluptatum nemo eaque. Dolorum perferendis modi corporis! Dicta harum at similique quo repudiandae magnam hic vel praesentium veniam? Ipsa, sequi vitae!
+            Labore commodi beatae alias eum! Minus pariatur voluptates culpa dolore, ducimus assumenda enim expedita harum dicta quis fugit quos aliquid officiis et soluta quia quae similique nihil possimus ut adipisci!</p>
+        </div>
+        <div class="custom-shape-divider-top-1651268155">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+
+        <div id="divisor" class="container-fluid my-4"></div>
+
+        <!-- Productos y carrito de compras -->
+        <div class=" container">
+            <div class="mt-2 container">
+                <h1 id="productos" class="mb-4">Realice su pedido aquí</h1>
+
+                <div class="row" id="cards"></div>
+            </div>
+        </div>
+
+        <template id="template-footer">
+            <th scope="row" colspan="2">Total productos</th>
+            <td>10</td>
+            <td>
+                <button class="btn btn-danger btn-sm" id="vaciar-carrito">
+                    Vaciar todo <i class="fa-solid fa-trash-can"></i>
+                </button>
+            </td>
+            <td class="font-weight-bold">$ <span>5000</span></td>
+        </template>
+        
+        <template id="carrito-compras">
+          <tr>
+            <th scope="row">id</th>
+            <td>Café</td>
+            <td>1</td>
+            <td>
+                <button class="btn btn-info btn-sm">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm">
+                    -
+                </button>
+            </td>
+            <td>$ <span>500</span></td>
+          </tr>
+        </template>
+
+        <!-- El estilo que va a tener cada carta de producto -->
+            <template id="card">
+                <div class="col-sm-12 col-md-6 col-xl-3 mb-2">
+                  <div class="card">
+                      <img src="" alt="" class="card-img-top">
+                    <div class="card-body">
+                      <h5></h5>
+                      <div class="mb-2">$ <span>500</span></div>
+                      <button class="btn btnCompra nav_l">Comprar</button>
+                    </div>
+                  </div>
+                </div>
+            </template>
+            <div class="container my-4"><h1>Carrito de compras</h1></div>
+            <div class="container">
+                <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Item</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Acción</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody id="items"></tbody>
+                    <tfoot>
+                      <tr id="footer">
+                        <th scope="row" colspan="5">Carrito vacío - comience a comprar!</th>
+                      </tr>
+                    </tfoot>
+                  </table>
+            </div>
+            <!-- ------------------------------------------------------------ -->
+            <div id="divisor" class="container-fluid my-4"></div>
+
+            <!-- Galería de imagenes con texto de relleno -->
+            <div class="mt-5 container">
+                <h1 class="mb-2" id="galeria">Galería</h1>
+                <h6 class="mb-3 text-muted">(Fotos de preparaciones hechas por mi mamá)</h6>
+                <div id="galeriaGrid">
+                    <div class="box box1"></div>
+                    <div class="box box2"></div>
+                    <div class="box box3"></div>
+                    <div class="box box4"></div>
+                    <div class="box box5"></div>
+                </div>
+            </div>
+
+            <div id="divisor" class="container-fluid my-4"></div>
+
+            <div id="contacto" class=" container">
+                <h1>Contacto</h1>
+                <h5 class="my-3 fontKal">Le agradecemos por elegirnos</h5>
+                <h6 class="text-muted mb-4">Si tiene alguna duda o quiere dejarnos un comentario, por favor rellene el siguiente formulario:</h6>
+
+                <form action="#">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                        </div>                
+                        <div class="mx-2 col-4">
+                            <div class="form-group">
+                                <label for="apellido">Apellido:</label>
+                                <input type="text" class="form-control" id="apellido" required>
+                            </div>
+                        </div>
+                        <div class="bakery"></div>
+                    </div>
+                    <div class="my-3 form-group col-8">
+                        <label for="inputSubject">E-mail:</label>
+                        <input type="email" class="form-control" id="inputSubject" required>
+                    </div>
+                    <div class="form-group col-8">
+                        <label for="mensaje">Dejenos un mensaje:</label>
+                        <textarea class="mt-2 form-control" id="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="fontKal mt-3 btnFormSend"><i class="fa fa-paper-plane"></i> Enviar</button>
+           
+            </div>
+        </main>
+
+        <footer class="mt-5 footerDiv row">            
+            <div class="p-4 col-2 offset-1">
+                <img src="./css/icons/logo.png" class="ml-5 img-fluid" width="200px">
+            </div>
+            <div class="p-4 col-4 offset-1">
+                <h3 class="pb-2">Datos de contactos:</h3>
+                <p>• Telefono: 8765-4321</p>
+                <p>• Dirección: Calle Falsa N°123</p>
+                <p>• Email: DolceParadiso@hotmail.com</p>
+            </div>
+            <div class="p-4 col-4">
+                <h3 class="pb-2">Nuestras sociales:</h3>
+                <i class="px-3 fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="px-3 fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="container-fluid text-center" id="copyright">Todos Los Derechos Reservados © 2022 | Emanuel Luna</div>
+        </footer>
+
+    <!-- Scripts Mios -->
+    <script src="./js/main.js"></script>
+    <script src="./js/productos.json"></script>
+    <!-- Scripts Externos -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!-- Sweet Alert -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script> <!-- Toastify -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <!-- Bootstrap -->
+    </body>
+</html>

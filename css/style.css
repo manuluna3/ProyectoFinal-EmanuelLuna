@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    height:1500px;
+    background-color:white;
+}
+body.dark{
+    width: 100%;
+    height:1500px;
+    background-color:rgb(43, 43, 43);
+}
+#toTop{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius:50%;
+    background-color: #9b00e2;
+    color: white;
+    border: none;
+    z-index: 100;
+}
+#toTop:hover{
+    background-color: #60008d;
+    border: 2px solid black;
+}
+
+/* Aquí le asigno fuentes a todo el texto de la página */
+h1{
+    font-family: 'Lobster', cursive;
+}
+h3{
+    font-family: 'Lobster', cursive;
+}
+.fontKal{
+    font-family: 'Kalam', cursive;
+}
+.card{
+    font-family: 'Kalam', cursive;
+}
+a{  
+    font-family: 'Kalam', cursive;
+}
+p{
+    font-size:18px;
+    font-family: 'Kalam', cursive;
+}
+label{
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+}
+.fontKal{
+    font-family: 'Kalam', cursive;
+}
+
+/* Header
+   Esto es para hacer la ola violeta del header */
+.custom-shape-divider-top-1651268155 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-top-1651268155 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 110px;
+    z-index: 0;
+}
+.custom-shape-divider-top-1651268155 .shape-fill {
+    fill: #9b00e2;
+}
+/* ----------------------------------------------- */
+
+#divisor{
+    background-image: url(./icons/divisor.png);
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.navbar-nav{
+    z-index: 10;
+}
+.nav_l{
+    color:white!important;
+}
+.nav_l:hover{
+    color:black!important;
+}
+.nav_r:hover{
+    color:rgb(150, 46, 248)!important;
+}
+.banner{
+    background-image: url(./img/banner.jpg);
+    height:500px;
+    background-size: cover;
+    background-position: 50%;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+.banner_message{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.5);
+}
+.banner_message h1{
+    color: blueviolet;
+    text-shadow: 0.15rem -0.07rem black;
+}
+.banner_message p{
+    color:black;
+}
+.btn_leerMas{
+    color: white;
+    border-radius: 10px;
+    background-color: blueviolet;
+    font-family: 'Kalam', cursive;
+}
+
+/* Galería */
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.btnCompra{
+    color: white;
+}
+.btnCompra:hover{
+    background-color:#640192 !important;
+}
+.btn-danger{
+    background-color: rgb(221, 0, 0);
+    padding: 0.25rem 0.63rem;
+}
+.btn-info{
+    background-color: #00bd00;
+    border: 1px solid #00bd00;
+}
+.btn-info:hover{
+    background-color:#008a00;
+    border: 1px solid #000000;
+}
+.btn-danger:hover{
+    background-color:#920000;
+    border: 1px solid #000000
+}
+.btn_leerMas{
+    border: 2px solid rgba(0, 0, 0, 0.411);
+}
+.btn_leerMas:hover{
+    background-color:#640192;
+    border: 2px solid #ffffff;
+}
+#galeriaGrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-areas: 
+    "box1 box1 box2 box3"
+    "box4 box5 box5 box3"
+    ;
+}
+.box{
+    border: 1px solid black;
+    border-radius:0.5rem;
+    height:20rem;
+    transition: all 0.2s;
+}
+.box:hover{
+    transform:scale(1.05);
+    border:4px solid #9b00e2;
+}
+.box1{
+    grid-area: box1;
+    background-image: url(./img/gal4.jpg);
+    background-size: cover;
+}
+.box2{
+    grid-area: box2;
+    background-image: url(./img/gal1.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+}
+.box3{
+    grid-area: box3;
+    background-image: url(./img/gal3.jpg);
+    background-size: cover;
+    background-position: 40% 60%;
+    height: 41rem;
+}
+.box4{
+    grid-area: box4;
+    background-image: url(./img/gal2.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.box5{
+    grid-area: box5;
+    background-image: url(./img/gal5.jpg);
+    background-size: cover;
+    background-position: 50% 20%;
+}
+
+/* Contacto */
+
+.contactoTY{
+    color:rgba(0, 0, 0, 0.76);
+}
+input{
+    border-radius: 5px;
+    margin-top:5px;
+}
+.btnFormSend{
+    color: white;
+    border-radius: 10px;
+    padding:5px 7px;
+    border: none;
+    background-color: #9b00e2;
+}
+.btnFormSend:hover{
+    background-color: #621ba3;
+}
+.bakery{
+    background-image: url(./img/bakery.jpg);
+    height:400px;
+    width:400px;
+    background-size: cover;
+    position:absolute;
+    right:0;
+    border-radius: 10px;
+    margin-right: 25px;
+    transform:rotate(5deg);
+}
+
+/* Footer */
+
+footer{
+    background-color:#1f1f1f;
+    color:wheat;
+    border-top:8px solid #7e01b8;
+}
+footer i{
+    font-size:2.2rem;
+    text-align:center;
+}
+footer i:hover{
+    color:#a300ee;
+    cursor: pointer;
+}
+#copyright{
+    background-color:#3b3b3b;
+}

@@ -1,0 +1,187 @@
+[
+
+    {   
+        "id":1,
+        "nombre":"Torta balcarce", 
+        "precio": 1500, 
+        "cantidad":1, 
+        "categoria":"tortas", 
+        "stock":50, 
+        "img":"/css/img/balcarce.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Torta selva negra", 
+        "precio":3200, 
+        "cantidad":1, 
+        "categoria":"tortas", 
+        "stock":50, 
+        "img":"/css/img/selvaNegra.png"
+    },
+    {
+        "id":3,
+        "nombre":"Torta mil hojas", 
+        "precio":1200, 
+        "cantidad":1, 
+        "categoria":"tortas", 
+        "stock":50, 
+        "img":"/css/img/milHojas.jpg"
+    },
+    {
+        "id":4,
+        "nombre":"Torta chajá", 
+        "precio":2200, 
+        "cantidad":1, 
+        "categoria":"tortas", 
+        "stock":50, 
+        "img":"/css/img/chaja.jpg"
+    },
+    {
+        "id":5,
+        "nombre":"Chocotorta", 
+        "precio":3000, 
+        "cantidad":1, 
+        "categoria":"tortas", 
+        "stock":50, 
+        "img":"/css/img/chocotorta.jpg"
+    },
+
+    {
+        "id":6,
+        "nombre":"Pan de ajo", 
+        "precio":300, 
+        "cantidad":1, 
+        "categoria":"panes", 
+        "stock":150, 
+        "img":"/css/img/panDeAjo.jpg"
+    },
+    {
+        "id":7,
+        "nombre":"Pan de Pebete", 
+        "precio":235, 
+        "cantidad":1, 
+        "categoria":"panes", 
+        "stock":150, 
+        "img":"/css/img/pebete.jpg"
+    },
+    {
+        "id":8,
+        "nombre":"Pan Francés", 
+        "precio":250, 
+        "cantidad":1, 
+        "categoria":"panes", 
+        "stock":150, 
+        "img":"/css/img/frances.jpg"
+    },
+    {
+        "id":9,
+        "nombre":"Pan Integral", 
+        "precio":280, 
+        "cantidad":1, 
+        "categoria":"panes", 
+        "stock":150, 
+        "img":"/css/img/integral.jpg"
+    },
+
+    {
+        "id":10,
+        "nombre":"Medialuna de grasa",
+        "precio":75,
+        "cantidad":1, 
+        "categoria":"facturas", 
+        "stock":350, 
+        "img":"/css/img/medialunaDeGrasa.jpg"
+    },
+    {
+        "id":11,
+        "nombre":"Medialuna de manteca", 
+        "precio":80,
+        "cantidad":1, 
+        "categoria":"facturas", 
+        "stock":350, 
+        "img":"/css/img/medialunaDeManteca.jpg"
+    },
+    {
+        "id":12,
+        "nombre":"Bola de fraile", 
+        "precio":108, 
+        "cantidad":1, 
+        "categoria":"facturas", 
+        "stock":350, 
+        "img":"/css/img/bolasDeFraile.jpg"
+    },
+    {
+        "id":13,
+        "nombre":"Tortita negra", 
+        "precio":105, 
+        "cantidad":1, 
+        "categoria":"facturas", 
+        "stock":350, 
+        "img":"/css/img/tortitaNegra.jpg"
+    },
+    {
+        "id":14,
+        "nombre":"Palmerita", 
+        "precio":85,
+        "cantidad":1, 
+        "categoria":"facturas", 
+        "stock":350, 
+        "img":"/css/img/palmerita.jpg"
+    },
+
+    {
+        "id":15,
+        "nombre":"Glaseada", 
+        "precio":120, 
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/glaseada.jpg"
+    },
+    {
+        "id":16,
+        "nombre":"Glaseada de frambuesa", 
+        "precio":160, 
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/glaseadaFrambuesa.jpg"
+    },
+    {
+        "id":17,
+        "nombre":"Cubierta de chocolate blanco", 
+        "precio":190, 
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/cubiertaChocolateNegro.jpg"
+    },
+    {
+        "id":18,
+        "nombre":"Cubierta de chocolate negro", 
+        "precio":190, 
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/cubiertaChocolateBlanco.jpg"
+    },
+    {
+        "id":19,
+        "nombre":"Cubierta con maní triturado", 
+        "precio":220, 
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/cubiertaChocolateNegroManiTriturado.jpg"
+    },
+    {
+        "id":20,
+        "nombre":"Vainilla cubierta con coco rallado",
+        "precio":170,
+        "cantidad":1, 
+        "categoria":"donuts", 
+        "stock":220, 
+        "img":"/css/img/cocoRallado.jpg"
+    }
+
+]
